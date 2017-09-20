@@ -10,7 +10,19 @@ const userSchema = mongoose.Schema({
   password: String
 })
 
-const User = mongoose.model('User', userSchema)
+// article schema
 
-module.exports = User
+const articleSchema = mongoose.Schema({
+  title: String,
+  content: String
+})
 
+const Models = {
+
+// article model
+  Article: mongoose.model('Article', articleSchema),
+  User: mongoose.model('User', userSchema)
+
+}
+
+module.exports = Models

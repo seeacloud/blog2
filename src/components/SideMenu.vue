@@ -8,6 +8,8 @@
     <router-link class="r-link" to="/admin/signin">登录</router-link>
     <router-link class="r-link" to="/admin/signup">注册</router-link>
     <router-link class="r-link" to="/admin/manage">管理</router-link>
+    <router-link class="r-link" to="/admin/publish">发表文章</router-link>
+
   </div>
 </template>s
 
